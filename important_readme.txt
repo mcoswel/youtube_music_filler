@@ -1,0 +1,3 @@
+- Enable Developer mode in Chrome Extension.
+- Put ten mp3 files inside the ytbg folder and rename it to 1.mp3, 2.mp3, 3.mp3....10.mp3
+- Load Unpacked and select folder from Chrom Extension.
