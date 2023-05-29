@@ -54,13 +54,13 @@ window.onload = function() {
 			a.muted = false;
 			a.volume = 0;
 			a.play();
-			const fadeDuration = 5000; 
+			const fadeDuration = 10000; 
 			const fadeInInterval = 100; 
 			const fadeInStep = fadeInInterval / fadeDuration; 
 			let currentVolume = 0;
 			const fadeIn = setInterval(() => {
 				currentVolume += fadeInStep;
-				if (currentVolume >= (0.6)) {
+				if (currentVolume >= (0.3)) {
 					clearInterval(fadeIn);
 						}
 				if (currentVolume<1){
